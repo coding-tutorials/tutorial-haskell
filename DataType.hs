@@ -1,3 +1,8 @@
+--Type Synonym, basically name the existings types
+type Name = String
+type Age = Int
+type Person = (String, Int)
+
 --define some data type (is like structure in C/C++)
 data OrganizationInfo = Organization String
 												deriving (Show) --need this to print this datatype
