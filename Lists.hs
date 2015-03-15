@@ -58,6 +58,13 @@ pairLists = zip [1,2,3] ['a','b','c']
 someFunctionWhilePair a b = a + b
 pairListsDoingSomething = zipWith someFunctionWhilePair [1, 2, 3] [4, 5,6]
 
+--map
+negateItem item = item * (-1)
+negatedItems = map negateItem [1, 2, 3]
+
+--lambda (anonymous) function
+negatedItemsLambda = map (\x -> x * (-1)) [1, 2, 3]
+
 --check if a list is empty before doing something
 doSomething xList = if not (null xList)
                     then head xList
