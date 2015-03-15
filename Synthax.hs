@@ -1,10 +1,3 @@
---loop
---someName = "Waterfall"
---addBars (x:xs) | show x
---               | addBars xs
-
-
-
 --guards
 rateDogAge dogAge
   | dogAge <= 2 = "Oh! it's a puppy!"
